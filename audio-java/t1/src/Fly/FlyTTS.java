@@ -105,9 +105,9 @@ public class FlyTTS {
     		if (res.contains("Fuck you")) {
     			startSpeaking("Ass we can!");
     		}
-    		if (res.contains("Move") || res.contains("move")) {
-    			startSpeaking("ok!");
-    		}
+    		//if (res.contains("Move") || res.contains("move")) {
+//    			startSpeaking("ok!");
+  //  		}
     		//word2 = 
     		if (results.getResultString() == "put the {1} {2}") {
     			
