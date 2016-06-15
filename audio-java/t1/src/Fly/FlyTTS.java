@@ -18,6 +18,8 @@ import Fly.util.Version;
 
 import com.example.t1.UnityTestActivity;
 
+import com.unity3d.player.UnityPlayer;
+
 public class FlyTTS {
 
 	private String mText = "hello, what can I do for you?"; 
@@ -95,6 +97,7 @@ public class FlyTTS {
     			return;
     		}
     		String res = results.getResultString();
+    		UnityPlayer.UnitySendMessage("camera", "mymassage", res);
     		Log.e(context.tag, "result:{" + res+"}"+res.length());
     		if (res.contains("Hello")) {
     			startSpeaking("Hello! What can I do for you?");
