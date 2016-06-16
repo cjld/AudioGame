@@ -1,0 +1,7 @@
+INDEX VERSION 1.127+/Users/luyunfei/Desktop/code/git/AudioGame/audio-java/.metadata/.plugins/org.eclipse.jdt.core
+1991143464.index
+3604833287.index
+2541960903.index
+4036391601.index
+3904678752.index
+1308049603.index
